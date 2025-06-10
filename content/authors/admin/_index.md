@@ -33,9 +33,9 @@ profiles:
   #- icon: brands/x
   #  url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/
   - icon: brands/linkedin
-    url: www.linkedin.com/in/min-zhang-414a33295
+    url: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
 
