@@ -32,10 +32,11 @@ profiles:
     label: E-mail Me
   #- icon: brands/x
   #  url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+  #- icon: brands/github
+  #  url: https://github.com/
+  #- icon: brands/linkedin
+  #  url: www.linkedin.com
+
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
 
@@ -45,7 +46,7 @@ education:
     date_start: 2023-10-02
     date_end: ''
     summary: |
-      Thesis on _Scalable Ranking on Large Graph_. Supervised by [Prof Weiren Yu](https://warwick.ac.uk/fac/sci/dcs/people/weiren_yu/). Research Topic: Data Mining, Information retrieval.
+      Thesis on _Scalable Ranking on Large Graph_. Supervised by [Prof Weiren Yu](https://warwick.ac.uk/fac/sci/dcs/people/weiren_yu/). Research Topic: Large-scale Graph Mining, Information Retrieval, Big Data.
     #button:
     #  text: 'Read Thesis'
     #  url: 'https://example.com'
@@ -89,6 +90,8 @@ education:
       - Algorithmic Foundations and Problem Solving, Data Structures
       - Computer System
       - etc.
+#publication:
+#  -[SIGIR'25] Min Zhang and Weiren Yu. 2025. UPPR+ Scaling Uncertain Personalised PageRank Computation on Billion-Sized Graphs with Mutually Exclusive Edges. In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '25). Association for Computing Machinery, New York, NY, USA, 2473–2482. https://doi.org/10.1145/3726302.3730113
 work:
   - position: Financial Technology Product Manager
     company_name: China Minsheng Banking Corp. LTD.
@@ -96,24 +99,24 @@ work:
     company_logo: ''
     date_start: 2022-07-01
     date_end: 2023-09-01
-    summary: |
-      Responsibilities include:
-      - Analyze and transfer business requirements to the functional requirements
-      - Familiar with the existing digital banking "public maintenance funds" special account supervision, "payroll", "fund custody" and "supply chain repayment" product functions, analyze and write requirement documents, draw system interaction diagram.
-      - Expand unified electronic payment channels, and connect with the order system to design standardized Internet payment webpage.
-      - Analyze and write the requirement documents of the agent payment component, agent payment document component, transaction anti-duplicate component, C2P maximum amount component, intelligent transfer route component, bill statement component and cash management product operation monitoring in the product standardization construction, and draw the corresponding flow chart and prototype demo.
+   # summary: |
+   #   Responsibilities include:
+   #   - Analyze and transfer business requirements to the functional requirements
+   #   - Familiar with the existing digital banking "public maintenance funds" special account supervision, "payroll", "fund custody" and "supply chain repayment" product functions, analyze and write requirement documents, draw system interaction diagram.
+    #  - Expand unified electronic payment channels, and connect with the order system to design standardized Internet payment webpage.
+    #  - Analyze and write the requirement documents of the agent payment component, agent payment document component, transaction anti-duplicate component, C2P maximum amount component, intelligent transfer route component, bill statement component and cash management product operation monitoring in the product standardization construction, and draw the corresponding flow chart and prototype demo.
   - position: Digital Customer Business Analyst, internship
     company_name: Deloitte Consulting (Shanghai) CO., LTD. 
     company_url: ''
     company_logo: ''
     date_start: 2021-08-01
     date_end: 2021-09-01
-    summary: |
-      Responsibilities include:
-      - Joined the project of digital customer consulting Project. Discussed requirements of two function parts of customer’s system with employees. Analyzed requirements of these two parts. Wrote the detailed requirement documentation.
-      - Communicated with developers to elaborate on requirements and propose initial approaches and timeline.
-      - Followed up the progress of development of these two parts and answered any questions from developers about details.
-      - Tested functionalities according to the pre-defined testing case, and reported any error to the developers.
+   # summary: |
+   #   Responsibilities include:
+   #   - Joined the project of digital customer consulting Project. Discussed requirements of two function parts of customer’s system with employees. Analyzed requirements of these two parts. Wrote the detailed requirement documentation.
+   #   - Communicated with developers to elaborate on requirements and propose initial approaches and timeline.
+   #   - Followed up the progress of development of these two parts and answered any questions from developers about details.
+   #   - Tested functionalities according to the pre-defined testing case, and reported any error to the developers.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -164,14 +167,14 @@ awards:
     url: https://learn.nvidia.com/certificates?id=dUFfRBzwQ3GQ6lyn7UjFbQ
     date: '2024-08-09'
     awarder: NVIDIA
-    icon: nvidia
+    #icon: nvidia
    # summary: |
    #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: '2024 CFA China Future Financial Analyst Competition'
     url: https://mp.weixin.qq.com/s/EpO7f-FznrLXrrB_t06a8Q
     date: '2024-05-01'
     awarder: CFA Institute
-    icon: cfa
+    #icon: cfa
     #summary: |
      # Learned:
     #  - Synthesize your own blockchain solutions
