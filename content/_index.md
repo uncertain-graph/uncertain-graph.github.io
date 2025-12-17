@@ -26,8 +26,8 @@ sections:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
   - block: markdown
+    id: news
     content:
-      username: admin
       title: News
       text: |
         **2026-01** 🧠 Participated in the **Alan Turing Institute Data Study Group (DSG)**.
@@ -38,19 +38,21 @@ sections:
 
         **2024-05** 🏆 Won CFA China Future Financial Analyst Competition.
       design:
-        columns: '1'
         background:
-          color: 'gray'
-        spacing:
-          padding: ['0.5rem', '0', '0.5rem', '0']
-  - block: collection
+          gradient_start: '#4bb4e3'
+          gradient_end: '#2b94c3'
+          gradient_angle: 180
+        view: compact
+  - block: collection    
+    id: pub                                         
     content:
       title: Publications
       page_type: publication
       sort_by: date
       sort_ascending: false
     design:
-      view: citation
+     # view: citation
+     view: compact
   #- block: markdown
   #   content:
   #  title: Publications
